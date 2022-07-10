@@ -18,7 +18,7 @@ import React from 'react';
                             <Link href={`/?topic=${item.name}`} key={item.name}>
                                 <div className={topic===item.name?activeTopicStyle:topicStyle}>
                                 <span className='text-2xl font-bold xl:text-md'>{item.icon}</span>
-                                <span className='text-md hidden xl:block font-medium capitalise'>{item.name}</span>
+                                <span className='text-md hidden xl:block font-medium capitalise focus:select-all'>{item.name}</span>
                                     </div>
                             </Link>
                             
