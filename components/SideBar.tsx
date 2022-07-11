@@ -50,7 +50,7 @@ const SideBar: NextPage = () => {
                                     onFailure={() => { }}
                                     cookiePolicy='single_host_origin' />
                             </div>
-                            <SuggestedAccounts />
+                                    <SuggestedAccounts />
                             <Footer />
 
                         </div>
