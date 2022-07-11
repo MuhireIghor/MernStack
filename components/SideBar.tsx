@@ -29,7 +29,7 @@ const SideBar: NextPage = () => {
                                     <AiFillHome />
                                 </p>
                                 <span className='text-xl hidden xl:block '>
-                                    For You
+                                    For You users
                                 </span>
                             </div>
                         </Link>
