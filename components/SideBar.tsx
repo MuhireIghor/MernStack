@@ -29,7 +29,7 @@ const SideBar: NextPage = () => {
                                     <AiFillHome />
                                 </p>
                                 <span className='text-xl hidden xl:block '>
-                                    For You users
+                                    For You 
                                 </span>
                             </div>
                         </Link>
@@ -42,10 +42,7 @@ const SideBar: NextPage = () => {
                                 <GoogleLogin
                                     clientId=""
                                     render={(renderProps) => (
-                                        <button className='bg-white text-lg text-[#F51997] border-[1px] border-[#F51997] px-6 py-3 rounded-md outline-none w-full mt-3 hover:text-white hover:bg-[#F51997] cursor-pointer' onClick={renderProps.onClick} disabled={renderProps.disabled}>LogIn</button>
-
-
-                                    )}
+                                        <button className='bg-white text-lg text-[#F51997] border-[1px] border-[#F51997] px-6 py-3 rounded-md outline-none w-full mt-3 hover:text-white hover:bg-[#F51997] cursor-pointer' onClick={renderProps.onClick} disabled={renderProps.disabled}>LogIn</button> )}
                                     onSuccess={() => { }}
                                     onFailure={() => { }}
                                     cookiePolicy='single_host_origin' />
