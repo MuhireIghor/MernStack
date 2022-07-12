@@ -1,0 +1,47 @@
+[33mcommit b1ae9019aa9d164fce55cc86e11273d39e806e35[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: the-coder-kalisa <gthecoderkalisaineza@gmail.com>
+Date:   Tue Jul 12 19:06:33 2022 +0200
+
+    content initialisation
+
+[33mcommit da0dcb4091831c2c3ccd6fd73a47bee520eb998e[m
+Author: the-coder-kalisa <gthecoderkalisaineza@gmail.com>
+Date:   Mon Jul 11 22:19:39 2022 +0200
+
+    sidebar fixes
+
+[33mcommit 8424715b2ee77144f7b9a95757f799eaa4d3cc38[m
+Author: the-coder-kalisa <gthecoderkalisaineza@gmail.com>
+Date:   Mon Jul 11 13:55:17 2022 +0200
+
+    padding with links
+
+[33mcommit 71a4d30802264a09ccdf0687404fe58cbf55f4a9[m
+Author: muhireIghor <muhireighor123@gmail.com>
+Date:   Sun Jul 10 20:56:52 2022 +0200
+
+    footer
+
+[33mcommit 148059303929daede2a31d1c6d21be768788bfde[m
+Author: muhireIghor <muhireighor123@gmail.com>
+Date:   Sat Jul 9 22:15:47 2022 +0200
+
+    Sidebar
+
+[33mcommit 45e6f4775b1e06a0d4b1b001bc832b3587d85b2c[m
+Author: muhireIghor <muhireighor123@gmail.com>
+Date:   Sat Jul 9 07:19:38 2022 +0200
+
+    Homepage SatrtUp
+
+[33mcommit 10bd55b32dd6eb636e3196c1dc79412486c89b9f[m
+Author: muhireIghor <muhireighor123@gmail.com>
+Date:   Fri Jul 8 15:17:37 2022 +0200
+
+    initial commit with schemas
+
+[33mcommit 5b9f685d11ebccd42ec9a1a6238e9685e02bdc8a[m
+Author: muhireIghor <muhireighor123@gmail.com>
+Date:   Fri Jul 8 12:08:19 2022 +0200
+
+    Initial commit from Create Next App
