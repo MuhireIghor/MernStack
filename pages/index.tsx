@@ -1,4 +1,4 @@
-import type { NextPage } from 'next';
+import { NextPage } from 'next';
 import axios from 'axios';
 import {Video} from '../types';
 import VideoCard from '../components/VideoCard';
@@ -7,7 +7,7 @@ interface Iprops{
   Videos:Video[];
 }
 
-const Home = ({Videos}:Iprops) => {
+const Home:NextPage<Iprops>=({Videos}) => {
 console.log(Videos);
 return (
     <div className='flex flex-col gap-3 h-full'>
@@ -31,4 +31,4 @@ return {
 
 
 }
-export default Home
+export default Home;
