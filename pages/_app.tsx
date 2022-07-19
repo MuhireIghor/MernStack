@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app';
 import { useState, useEffect } from 'react';
+import {GoogleOAuthProvider} from '@react-oauth/google';
 import SideBar from '../components/SideBar';
 import NavBar from '../components/NavBar';
 const MyApp = ({ Component, pageProps }: AppProps) => {
@@ -12,8 +13,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   if (isSSR)
     return null;
   return (
-    <div>
-      <NavBar />
+    <GoogleOAuthProvider clientId={`${process.env.NEXT_PUBLIC_GOOGLE_API_TOKEN}`} >
+            <NavBar />
+        <div> 
       <div className='flex gap-6 md:gap-20'>
         <div className='h-[92vh] overflow-scroll xl:hover:overflow-hidden'>
           <SideBar />
@@ -23,6 +25,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         </div>
       </div>
     </div>
+      </GoogleOAuthProvider>
 
   )
 }
