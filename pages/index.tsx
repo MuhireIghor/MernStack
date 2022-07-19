@@ -11,7 +11,7 @@ const Home = ({Videos}:Iprops) => {
 console.log(Videos);
 return (
     <div className='flex flex-col gap-3 h-full'>
-    <h1 className='flex flex-col videos gap-10 h-full'>Hello world</h1>
+    {/* <h1 className='flex flex-col videos gap-10 h-full'>Hello world</h1> */}
     {Videos.length ? (
       Videos.map((video:Video)=>(
         <VideoCard post={video} key = {video._id} />      
