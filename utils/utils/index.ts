@@ -12,7 +12,7 @@ export const createOrGetUser = async(response:any)=>{
   }
   
   console.log(decoded);
-  await axios.post('http://localhost:3000/api/auth',user);
+  await axios.post('http://localhost:3000/api/post/auth',user);
 
   
   
