@@ -8,9 +8,10 @@ import {BiSearch} from 'react-icons/bi';
 import {IoMdAdd} from 'react-icons/io';
 import Logo from '../utils/utils/tiktik-logo.png';
 import { createOrGetUser } from '../utils/utils';
+import useAuthStore from '../Store/authStore';
 // import { Header } from '../utils/utils/Header';
 const NavBar = () => {
-  const user = false;
+  const {userProfile,addUser} = useAuthStore()
   return (
     <div className='w-full flex justify-between items-center border border-b-2 py-2 px- 4 border-gray-200'>
         <Link href='/'>
@@ -23,13 +24,13 @@ const NavBar = () => {
         </Link>
         <div>SEARCH</div>
         <div>
-          {user ? (
+          {userProfile ? (
             <div> 
-              Logged in
+              {userProfile?.name}
             </div>            
           ): (
             <GoogleLogin 
-            onSuccess={(response)=>{createOrGetUser(response);
+            onSuccess={(response)=>{createOrGetUser(response,addUser);
             }}
             onError = {()=>{console.log('error');
             }}
